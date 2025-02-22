@@ -91,6 +91,15 @@ importers:
         specifier: ^19.0.0
         version: 19.0.0(react@19.0.0)
     devDependencies:
+      '@saas/eslint-config':
+        specifier: workspace:*
+        version: link:../../config/eslint-config
+      '@saas/prettier':
+        specifier: workspace:*
+        version: link:../../config/prettier
+      '@saas/tsconfig':
+        specifier: workspace:*
+        version: link:../../config/typescript-config
       '@types/node':
         specifier: ^20
         version: 20.17.17
