@@ -9,25 +9,34 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.1.7",
+    "@radix-ui/react-label": "^2.1.4",
+    "@radix-ui/react-separator": "^1.1.4",
+    "@radix-ui/react-slot": "^1.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.507.0",
+    "next": "15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.7"
+    "tailwind-merge": "^3.2.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@saas/eslint-config": "workspace:*",
+    "@saas/prettier": "workspace:*",
+    "@saas/tsconfig": "workspace:*",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "@saas/eslint-config": "workspace:*",
-    "@saas/prettier": "workspace:*",
-    "@saas/tsconfig": "workspace:*"
+    "typescript": "^5"
   },
   "prettier": "@saas/prettier",
   "eslintConfig": {
-      "extends": [
-          "@saas/eslint-config/next-js"
-      ]
+    "extends": [
+      "@saas/eslint-config/next-js"
+    ]
   }
 }
